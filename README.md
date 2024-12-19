@@ -3,7 +3,7 @@
 ```
 require_once "class/Prime.php";
 
-$length = 100;
-$prime = new Prime($length);
+$max = 100;
+$prime = new Prime($max);
 $prime->writeToFile();
 ```
